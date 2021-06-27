@@ -1,6 +1,6 @@
-package com.example.postgres.springbootpostgresdocker;
+package ro.upb.ssec.worker;
 
-import com.example.postgres.springbootpostgresdocker.model.AuditorAwareImpl;
+import ro.upb.ssec.worker.model.AuditorAwareImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

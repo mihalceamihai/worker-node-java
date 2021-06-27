@@ -1,4 +1,4 @@
-package com.example.postgres.springbootpostgresdocker.model;
+package ro.upb.ssec.worker.model;
 
 import org.springframework.data.domain.AuditorAware;
 

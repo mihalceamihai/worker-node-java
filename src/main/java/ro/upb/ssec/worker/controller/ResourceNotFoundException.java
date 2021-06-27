@@ -1,4 +1,4 @@
-package com.example.postgres.springbootpostgresdocker.controller;
+package ro.upb.ssec.worker.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

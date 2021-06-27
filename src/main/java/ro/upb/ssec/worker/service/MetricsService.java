@@ -1,7 +1,7 @@
-package com.example.postgres.springbootpostgresdocker.services;
+package ro.upb.ssec.worker.service;
 
-import com.example.postgres.springbootpostgresdocker.MetricsRepository;
-import com.example.postgres.springbootpostgresdocker.model.Metrics;
+import ro.upb.ssec.worker.repository.MetricsRepository;
+import ro.upb.ssec.worker.model.Metrics;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -20,4 +20,4 @@ RUN apt update -y \
 COPY --from=build-container /workdir/target/*.jar /app/
 WORKDIR /app
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-CMD ["springboot-postgres-k8s-0.0.1-SNAPSHOT.jar"]
+CMD ["worker-0.0.1-SNAPSHOT.jar"]

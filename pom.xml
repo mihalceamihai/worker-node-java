@@ -8,11 +8,11 @@
         <version>2.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.postgres</groupId>
-    <artifactId>springboot-postgres-k8s</artifactId>
+    <groupId>ro.upb.ssec</groupId>
+    <artifactId>worker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-postgres-k8s</name>
-    <description>Demo project for Spring Boot</description>
+    <name>worker</name>
+    <description/>
     <properties>
         <java.version>11</java.version>
     </properties>
