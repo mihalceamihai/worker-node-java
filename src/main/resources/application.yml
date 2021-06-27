@@ -1,9 +1,10 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://${DB_HOST}:5432/${DB_NAME}
-    username: {POSTGRES_USER}
-    password: {POSTGRES_PASSWORD}
+    #url: jdbc:postgresql://${DB_HOST}:5432/${DB_NAME}
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/${DB_NAME:metricsdb}
+    username: {POSTGRES_USER:postgres}
+    password: {POSTGRES_PASSWORD:postgres}
     hikari:
       initialization-fail-timeout: 0
 jpa:
@@ -11,4 +12,4 @@ jpa:
   generate-ddl: true
   show-sql: true
   hibernate:
-    ddl-auto: create
+    ddl-auto: create-drop
