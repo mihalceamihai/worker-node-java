@@ -6,7 +6,8 @@ COPY . /workdir/
 RUN mvn clean install -DskipTests=true
 
 #from adoptopenjdk/openjdk11
-from adoptopenjdk/openjdk11:aarch64-ubuntu-jdk11u-nightly
+#from adoptopenjdk/openjdk11:aarch64-ubuntu-jdk11u-nightly
+from adoptopenjdk/openjdk11:aarch64-ubuntu-jdk11u-nightly-slim
 #from openjdk:8-slim
 MAINTAINER Mihalcea Mihai
 COPY entrypoint.sh /usr/local/bin/
